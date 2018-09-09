@@ -19,3 +19,9 @@ body, html {
   height: 100%;
   background-color: white;
 }
+
+.btn {
+  &:focus, &:active, &:hover {
+    box-shadow: none !important;
+  }
+}
