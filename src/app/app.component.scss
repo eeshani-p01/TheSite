@@ -7,16 +7,22 @@ header {
 
   h2 {
     color: lightgoldenrodyellow;
-    margin-top:10px;
+    margin-top: 10px;
   }
 
   .nav {
     a {
       color: white;
+      position: relative;
 
-      &.active {
-        color: green;
-        font-weight: 600;
+      &.active:after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 42%;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid lightgreen;
       }
     }
   }
