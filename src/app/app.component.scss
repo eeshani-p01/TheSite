@@ -1,6 +1,23 @@
-header{
+header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 80px;
+  justify-content: center;
+  height: 60px;
+  padding: 0 200px;
+
+  h2 {
+    color: lightgoldenrodyellow;
+    margin-top:10px;
+  }
+
+  .nav {
+    a {
+      color: white;
+
+      &.active {
+        color: green;
+        font-weight: 600;
+      }
+    }
+  }
 }

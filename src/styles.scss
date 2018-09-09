@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import 'assets/scss/fonts';
-
 body, html {
   margin: 0;
   width: 100%;
@@ -18,6 +16,6 @@ body, html {
 .section {
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-color: white;
 }
