@@ -43,15 +43,73 @@
   }
 
   .expertise {
+    padding: 50px;
+    width: 1100px;
+    margin: auto;
+    color: white;
+    background: linear-gradient(#FABA94, #E7717D,#AA5477);
+    background-attachment: fixed;
+
+    h1 {
+      text-align: center;
+    }
+
+    & > div {
+      display: flex;
+      height: 300px;
+      align-items: center;
+      justify-content: space-between;
+
+      .descr {
+        width: 50%;
+      }
+    }
+  }
+
+  .data-statistics {
+    padding: 50px 200px;
+    background-color: #F8F8F9;
+    height: 250px;
+    text-align: center;
+  }
+
+  .tour-packages {
+    padding: 50px 0;
+    width: 1100px;
+    margin: auto;
+
+    h1 {
+      text-align: center;
+    }
+
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .img {
+        background: url('../../assets/images/0.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: contain;
+        border-radius: 20px;
+        min-width: 350px;
+        height: 350px;
+        margin: 50px;
+      }
+    }
+  }
+
+  .expertise2 {
     height: 800px;
     margin: 50px 200px;
     background: url('../../assets/images/0.jpg');
-    background-attachment:fixed;
-    text-align:center;
+    background-attachment: fixed;
+    text-align: center;
 
-    h1{
-      color:white;
-      padding-top:20px;
+    h1 {
+      color: white;
+      padding-top: 20px;
     }
   }
 }
