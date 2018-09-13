@@ -1,0 +1,32 @@
+.header{
+  height: 50px;
+  background-color: #111;
+  margin-bottom:20px;
+}
+.tour-container{
+  display: flex;
+  width: 1280px;
+  margin:auto;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+  margin: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+
+  .img {
+    width: 400px;
+    min-height: 400px;
+    height: auto;
+  }
+
+  &:hover {
+    .img {
+      transition: 0.3s;
+      transform: scale(1.1);
+    }
+  }
+}
