@@ -1,23 +1,23 @@
 .img-flex {
   background-image: url('../../assets/images/4.jpg');
 }
-.tour-container{
+.tour-container {
   display: flex;
   width: 1280px;
-  margin:auto;
+  margin: 0 auto 80px auto;
   flex-wrap: wrap;
 }
 .thumbnail {
   cursor: pointer;
-  width: 400px;
-  height: 400px;
-  margin: 12px;
+  width: 350px;
+  height: 320px;
+  margin: 38px;
   border-radius: 12px;
   overflow: hidden;
 
   .img {
-    width: 400px;
-    min-height: 400px;
+    width: 350px;
+    min-height: 320px;
     height: auto;
   }
 
