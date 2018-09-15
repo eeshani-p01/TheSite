@@ -9,13 +9,13 @@
     transition: opacity 2s ease-in-out;
     background-color: #AA5477;
     background-attachment: fixed;
+    background-size: cover;
 
     &.active {
       opacity: 1;
     }
   }
 }
-
 
 // Custom styles for image-slider
 .carousel,
@@ -27,15 +27,15 @@
 
 .carousel-item {
   &:nth-child(1) {
-    background: url('../../assets/images/0.jpg');
+    background: url('../../assets/images/2.jpg');
   }
 
   &:nth-child(2) {
-    background: url('../../assets/images/1.jpg');
+    background: url('../../assets/images/3.jpg');
   }
 
   &:nth-child(3) {
-    background: url('../../assets/images/0.jpg');
+    background: url('../../assets/images/4.jpg');
   }
 }
 
