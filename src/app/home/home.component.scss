@@ -40,36 +40,26 @@
 }
 
 .main-content {
-  .summary {
-    height: 250px;
-    margin: 50px 200px;
-    width: 600px;
+  margin: 30px 0;
 
-    h2 {
-      margin-bottom: 20px;
-    }
+  a {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 0;
+    border: 2px solid #777;
+    color: #111;
+    transition: .4s;
 
-    a {
-      margin-top: 30px;
-      background-color: white;
-      border-radius: 0;
-      border: 2px solid #777;
-      color: #111;
-      transition: .3s;
-
-      &:hover {
-        border-color: lightgreen;
-        color: lightgreen;
-      }
+    &:hover {
+      border-color: #E7717D;
+      color: #E7717D;
     }
   }
 
   .expertise {
     padding: 50px;
-    width: 1100px;
-    margin: 0 auto 40px auto;
     color: white;
-    background: linear-gradient(#FABA94, #E7717D,#AA5477);
+    background: linear-gradient(#FABA94, #E7717D, #AA5477);
     background-attachment: fixed;
 
     h1 {
@@ -154,30 +144,24 @@
       }
 
       .decsr {
+        padding: 0 10px 0 50px;
 
         p {
           padding: 10px 44px;
         }
 
-        .fas {
+        & > .fas {
           font-size: 30px;
           position: absolute;
           color: #AA5477;
         }
+
+        a{
+          .fas{
+            padding-left: 14px;
+          }
+        }
       }
-    }
-  }
-
-  .expertise2 {
-    height: 800px;
-    margin: 50px 200px;
-    background: url('../../assets/images/0.jpg');
-    background-attachment: fixed;
-    text-align: center;
-
-    h1 {
-      color: white;
-      padding-top: 20px;
     }
   }
 }
