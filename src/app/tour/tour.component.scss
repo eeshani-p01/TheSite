@@ -25,8 +25,8 @@
 
   &:hover {
     .img {
-      transition: 0.3s;
-      transform: scale(1.1);
+      transition: all 1s ease;
+      transform: scale(1.2);
     }
   }
 }

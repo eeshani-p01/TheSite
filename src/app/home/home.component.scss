@@ -8,6 +8,8 @@
     opacity: 0;
     transition: opacity 2s ease-in-out;
     background-color: #AA5477;
+    background-attachment: fixed;
+
     &.active {
       opacity: 1;
     }
@@ -105,7 +107,7 @@
 
   .data-statistics {
     padding: 50px 200px;
-    background-color: #F3F3F3;
+    background-color: #E6E6E7;
     text-align: center;
 
     & > div {
@@ -149,6 +151,19 @@
         min-width: 350px;
         height: 350px;
         margin: 50px;
+      }
+
+      .decsr {
+
+        p {
+          padding: 10px 44px;
+        }
+
+        .fas {
+          font-size: 30px;
+          position: absolute;
+          color: #AA5477;
+        }
       }
     }
   }
